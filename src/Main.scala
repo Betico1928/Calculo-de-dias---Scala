@@ -1,6 +1,7 @@
-object Main extends App {
-
-  def diaSemana(year: Int, month: Int, day: Int): String = {
+object Main extends App
+{
+  def diaSemana(year: Int, month: Int, day: Int): String =
+  {
     val q = day
     val m = if (month <= 2) month + 12 else month
     val y = if (month <= 2) year - 1 else year
